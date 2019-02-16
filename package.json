@@ -1,0 +1,27 @@
+{
+  "name": "travis-protractor-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webdriver-start": "webdriver-manager start &",
+    "webdriver-update": "webdriver-manager update",
+    "protractor": "protractor",
+    "ci-e2e": "protractor --capabilities.chromeOptions.args=--headless --capabilities.chromeOptions.args=--no-sandbox protractor.conf.js"
+  }
+}
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vimagox/travis-protractor-setup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vimagox/travis-protractor-setup/issues"
+  },
+  "homepage": "https://github.com/vimagox/travis-protractor-setup#readme"
+}
